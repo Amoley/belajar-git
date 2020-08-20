@@ -1,0 +1,73 @@
+hello kotlin
+fun main() {
+    val name = "Muhammad Royan Amoley"
+
+    print("Nama saya ")
+    println(name)
+
+    val hobi = "bermain game"
+
+    print("Hobi saya ")
+    println(hobi)
+}
+character
+
+fun main() {
+    var vocal = 'Z'
+
+        println("Huruf " + vocal--)
+        println("Huruf " + vocal--)
+        println("Huruf " + vocal++)
+        vocal -= 6;
+        println("Huruf " + vocal--)
+        println("Huruf " + vocal++)
+        println("Huruf " + vocal--)
+        vocal += 6;
+        println("Huruf " + vocal++)
+        println("Huruf " + vocal++)
+        println("Huruf " + vocal++)
+}
+
+strings
+fun main() {
+    val wordOne = """
+        Modern
+    """.trimIndent()
+
+    val wordTwo = """
+        Concise
+    """.trimIndent()
+
+    val wordThree = """
+        Pragmatic
+    """.trimIndent()
+
+    val wordFour = """
+        Safe
+    """.trimIndent()
+
+    println("Kotlin is " +wordOne)
+    println("Kotlin is " +wordTwo)
+    println("Kotlin is " +wordThree)
+    println("Kotlin is " +wordFour)
+}
+ Functions 
+ fun main() {
+    val user = setUser("Muhammad Royan Amoley", "watching movie", 16)
+    print(user)
+}
+fun setUser(name: String, hobby: String, age: Int) =
+        "My name is $name, I like $hobby and,  I'm $age years 
+If Expressions
+fun main(args: Array<String>) {
+    val nilai = 75
+    if (nilai >= 75){
+        println("Nilai kamu " + nilai + ", selamat yaa")
+    }else{
+        println("Nilai kamu " +nilai+ ", silahkan ikuti remidial")
+    }
+}
+        
+
+
+
